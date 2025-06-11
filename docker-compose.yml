@@ -1,4 +1,4 @@
-version: '3'
+version: '3.8'
 
 services:
   market-pulse:
@@ -6,7 +6,9 @@ services:
     ports:
       - "8050:8050"
     volumes:
-      - .:/app:delegated
+      - type: bind
+        source: .
+        target: /app
     environment:
       - PYTHONUNBUFFERED=1
     restart: unless-stopped
