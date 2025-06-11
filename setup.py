@@ -1,0 +1,31 @@
+from setuptools import setup, find_packages
+
+setup(
+    name="owkin",
+    version="0.1.0",
+    packages=find_packages(),
+    install_requires=[
+        "pyautogen>=0.2.0",
+        "langchain>=0.1.0",
+        "langchain-community>=0.0.10",
+        "transformers>=4.36.0",
+        "torch>=2.1.0",
+        "ollama>=0.1.0",
+        "sentence-transformers>=2.2.2",
+        "beautifulsoup4>=4.12.2",
+        "newspaper3k>=0.2.8",
+        "requests>=2.31.0",
+        "spacy>=3.6.1,<3.7.0",
+        "scispacy>=0.5.3",
+        "biobert-embedding>=0.1.1",
+        "python-docx>=1.0.0",
+        "reportlab>=4.0.4",
+        "jinja2==3.1.2",
+        "weasyprint==60.1",
+        "python-dotenv>=1.0.0",
+        "pydantic>=2.5.2",
+        "numpy>=1.24.0",
+        "pandas>=2.1.4",
+    ],
+    python_requires=">=3.8",
+) 

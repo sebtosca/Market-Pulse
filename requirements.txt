@@ -1,0 +1,44 @@
+# Core dependencies
+spacy
+setuptools
+wheel
+dash
+dash-bootstrap-components
+plotly
+pandas
+requests
+beautifulsoup4
+googlesearch-python
+python-dotenv
+
+# Core Framework
+pyautogen
+langchain
+langchain-community
+
+# Models and Inference
+torch
+transformers
+ollama
+sentence-transformers
+
+# Scraping Tools
+newspaper3k
+
+# Document Processing
+python-docx
+reportlab
+jinja2
+weasyprint
+
+# Utilities
+pydantic
+numpy
+
+# Testing
+pytest
+pytest-asyncio
+
+# Development
+black
+isort
